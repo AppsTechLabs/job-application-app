@@ -1,14 +1,20 @@
 import React from "react";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
-import { Header, Footer } from './components'
+import { Header, Cta, Section, Testimonials, Footer } from './containers'
+import { Navbar, Button } from './components'
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Header />
-      <h1 className="text-primary">hello world</h1>
+      <Cta />
+      <Button />
+      <Section />
+      <Testimonials />
       <Footer />
+      <h1 className="text-primary">hello world</h1>
     </div>
   );
 }  
