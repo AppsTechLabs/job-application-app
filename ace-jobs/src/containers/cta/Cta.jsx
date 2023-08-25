@@ -3,8 +3,13 @@ import './cta.css';
 
 const Cta = () => {
   return (
-    <div>Cta</div>
+    <footer className='bg-dark text-white pt-5 pb-4'>
+       <div className="container text-center text-md-left">
+        
+       </div>
+    </footer>
+
   )
 }
 
-export default Cta
+export default Cta;
