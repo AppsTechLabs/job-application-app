@@ -3,7 +3,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
 import './app.css'
 import { Header, Cta, Section, Testimonials, Footer } from './containers'
-import { Navbar, Button } from './components'
+import { Navbar, Button, Form, Login, Apply } from './components'
 
 function App() {
   return (
@@ -12,9 +12,13 @@ function App() {
       <Header />
       <Cta />
       <Button />
+      <Form />
+      <Login />
+      <Apply />
       <Section />
       <Testimonials />
       <Footer />
+    
       <h1 className="text-primary">hello world</h1>
     </div>
   );
