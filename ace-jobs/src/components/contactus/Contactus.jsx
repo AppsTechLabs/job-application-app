@@ -18,7 +18,7 @@ const Contactus = () => {
               <input type="text" className="form-control" placeholder="Name" aria-label="Name"></input>
             </div>
           </div>
-
+       
           <div className="mb-3">
           <label for="exampleFormControlInput1" className="form-label">Email address</label>
           <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></input>

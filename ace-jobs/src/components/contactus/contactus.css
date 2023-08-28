@@ -1,6 +1,6 @@
  
 
-/* Style inputs with type="text", select elements and textareas */
+
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
@@ -12,8 +12,7 @@ input[type=text], select, textarea {
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
   
-  /* contactus STYLES
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ 
 
 .container{
   border-radius: 5px;
