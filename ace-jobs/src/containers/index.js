@@ -3,3 +3,4 @@ export { default as Footer} from "./footer/Footer";
 export { default as Cta} from "./cta/Cta";
 export { default as Testimonials} from "./testimonials/Testimonials";
 export { default as Section} from "./section/Section";
+export { default as Features} from "./features/Features";
