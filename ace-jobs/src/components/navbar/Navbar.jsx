@@ -7,7 +7,7 @@ import logo1 from '../../assets/images/logo1.png'
 
 
 const Navbar = () => {
-  return (
+  return ( 
     <>
       <nav className='navbar navbar-expand-lg navbar-light shadow p-1 mb-2 '>
         <div className='container-fluid'>

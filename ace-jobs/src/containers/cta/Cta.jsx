@@ -6,7 +6,7 @@ import job from "../../assets/images/job.png";
 
 
 const Cta = () => {
-  return (
+  return ( 
   <>
     <h1 className='text-center text-primary'>How to get started!</h1>
     <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
@@ -51,4 +51,4 @@ const Cta = () => {
   )
 }
 
-export default Cta
+export default Cta;
