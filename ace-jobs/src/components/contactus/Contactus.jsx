@@ -10,7 +10,7 @@ const Contactus = () => {
   return (
   <div>
     <div className="container">
-      <div className="container1"> <img src={contactUs} class="img" height={600} width={1280}  alt="content"/> </div>
+      <div className="container1"> <img src={contactUs} class="img" width="100%"  alt="content"/> </div>
     
           <div className="row">
             <div className="mb-3">

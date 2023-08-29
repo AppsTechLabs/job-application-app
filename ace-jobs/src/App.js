@@ -3,7 +3,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
 import './app.css'
 import { Header, Cta, Section, Testimonials, Footer } from './containers'
-import { Navbar, Button , Contactus} from './components'
+import { Navbar, Button , Contactus, AboutUs} from './components'
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Cta />
       <Button />
       <Section />
+      <AboutUs />
       <Contactus />
       <Testimonials />
       <Footer />
